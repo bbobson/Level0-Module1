@@ -1,7 +1,13 @@
 {
     "version": "0.2.0",
     "configurations": [
+
         {
+            "type": "java",
+            "name": "VennDiagramOfMe",
+            "request": "launch",
+            "mainClass": "_02_colors.VennDiagram.VennDiagramOfMe"
+        },{
             "type": "java",
             "name": "FixThePrint",
             "request": "launch",
