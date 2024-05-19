@@ -15,10 +15,13 @@ public class VennDiagramOfMe extends PApplet {
         size(600, 600);
     }
 
-    /*@Override
+    @Override
     public void setup() {
-        noLoop();
-    }*/
+        System.out.println("Setup called");
+        surface.setResizable(true); // Allow resizing to help with display issues
+        surface.setLocation(10, 10); // Set a specific location for the window
+   
+    }
 
     @Override
     public void draw() {
